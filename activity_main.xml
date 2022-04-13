@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/calculator"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="88dp"
+        android:text="Enter number_1 : "
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@+id/tv1"
+        android:background="@color/black"
+        android:inputType="number" />
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="186dp"
+        android:text="Enter number_2 : "
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        android:layout_toRightOf="@+id/tv2"
+        android:background="@color/black"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/black"
+        android:text="Addition"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/black"
+        android:text="Subtraction"
+        android:textColor="@color/white"
+        android:layout_marginTop="320dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btn_mul"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/black"
+        android:text="Multiplication"
+        android:textColor="@color/white"
+        android:layout_marginTop="390dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btn_div"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/black"
+        android:text="Division"
+        android:textColor="@color/white"
+        android:layout_marginTop="460dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="545dp"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+
+
+
+</RelativeLayout>
